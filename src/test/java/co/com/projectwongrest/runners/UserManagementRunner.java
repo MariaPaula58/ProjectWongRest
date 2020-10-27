@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src\\test\\resources\\features\\user_management.feature",
         glue = "co.com.projectwongrest.stepdefinitions",
         snippets = SnippetType.CAMELCASE,
-        dryRun = true
+        dryRun = false
 )
 
 public class UserManagementRunner {
